@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
+    <title>Teste Eureciclo</title>
+</head>
+<body>
+    <h1>Desafio de programação inicial</h1>
+    <form>
+        <label for="galao">
+            Insira o volume do galão:
+            <div>
+                <input id="galao" name="galao" type="number" min="0" autofocus placeholder="5" required>
+                litros
+            </div>
+        </label>
+        <label for="quantidade">
+            Quantidade de garrafas:
+            <div>
+                <input id="garrafas" name="garrafas" type="number" min="0" placeholder="3" required>
+                garrafas
+            </div>
+        </label>
+
+        <div id="container"></div>
+        
+        <button type="submit">Calcular</button>
+        <button class="novoCalculo">Novo Calculo</button>
+    </form>
+
+    <div id="resultado"></div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

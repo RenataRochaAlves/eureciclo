@@ -1,0 +1,128 @@
+body {
+    background: #8360c3; 
+    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);
+    background: linear-gradient(to right, #2ebf91, #8360c3);
+    font-family: 'Montserrat';
+    font-size: 14px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+form {
+    width: 40%;
+    min-width: 300px;
+    max-width: 600px;
+    background-color: rgba(0, 0, 0, 0.198);
+    border-radius: 10px;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+label {
+    width: 50%;
+    font-size: 1.2em;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label div {
+    font-size: 0.8em;
+    margin-top: 15px;
+}
+
+input {
+    width: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+    font-size: 1.2em;
+}
+
+#container {
+    margin-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.507);
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+#container label {
+    width: calc(100% / 4 - 20px);
+    min-width: 100px;
+    max-width: 120px;
+    margin-bottom: 30px;
+}
+
+#container label div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container label div input {
+    margin-right: 0;
+}
+
+button {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.3em;
+    color: #fff;
+    letter-spacing: 0.08em;
+    background: linear-gradient(to right, #2ea188, #2bbd8f);
+    transition: ease 0.5s;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background: linear-gradient(to right, #2bbd8f, #2ea188);
+}
+
+.novoCalculo {
+    display: none;
+}
+
+#resposta {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#resposta div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#resultado {
+    width: 40%;
+    min-width: 300px;
+    max-width: 600px;
+}
